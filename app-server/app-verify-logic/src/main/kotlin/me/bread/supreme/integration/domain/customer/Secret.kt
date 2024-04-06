@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain
+package me.bread.supreme.integration.domain.customer
 
 import java.time.LocalDateTime
 

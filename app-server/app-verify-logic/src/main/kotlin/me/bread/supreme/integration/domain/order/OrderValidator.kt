@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain
+package me.bread.supreme.integration.domain.order
 
 /**
  * 사용자가 주문 버튼 클릭시, 주문 정책에 맞는 값을

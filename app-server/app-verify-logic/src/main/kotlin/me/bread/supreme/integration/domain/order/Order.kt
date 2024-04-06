@@ -1,4 +1,7 @@
-package me.bread.supreme.integration.domain
+package me.bread.supreme.integration.domain.order
+
+import me.bread.supreme.integration.domain.customer.Customer
+import me.bread.supreme.integration.domain.product.Product
 
 class Order(
 	val orderItem: MutableList<OrderItem>,

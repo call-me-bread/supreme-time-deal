@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain
+package me.bread.supreme.integration.domain.order
 
 class Transaction() {
 	fun add() {}

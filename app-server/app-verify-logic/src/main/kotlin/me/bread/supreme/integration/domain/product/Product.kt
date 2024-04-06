@@ -1,6 +1,6 @@
-package me.bread.supreme.integration.domain
+package me.bread.supreme.integration.domain.product
 
-import me.bread.supreme.integration.application.ProductType
+import me.bread.supreme.integration.domain.money.Money
 
 class Product(
 	var productType: ProductType,
