@@ -1,0 +1,9 @@
+[*.{kt,kts}]
+max_line_length = 120
+indent_style = tab
+indent_size = 6
+insert_final_newline = true
+
+[*.md]
+max_line_length = 999999
+trim_trailing_whitespace = false
