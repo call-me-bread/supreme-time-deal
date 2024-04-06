@@ -1,0 +1,4 @@
+jwt:
+  secret: secret
+  expiration: 1000
+  prefix: 'Bearer '

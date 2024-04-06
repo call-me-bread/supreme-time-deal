@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  config:
+    import: classpath:/jwt.yml
+
+---
+
+spring:
+  application:
+    name: authentication-service
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://localhost:3306/supreme?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: very-secret
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
