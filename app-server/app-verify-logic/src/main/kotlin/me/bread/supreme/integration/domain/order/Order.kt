@@ -24,7 +24,6 @@ class Order(
 		// 선착순 밀렸는지 확인
 
 		// 핸드폰 인증 여부 확인
-		customer.checkPhoneNumberAuthorized()
 
 		// 상품 재고가 있는지 확인
 

@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain.customer
+package me.bread.supreme.integration.domain.secret
 
 import java.time.LocalDateTime
 
@@ -13,4 +13,5 @@ class Secret(
 	fun phoneAuth(): Boolean {
 		return this.phoneAuth
 	}
+
 }
