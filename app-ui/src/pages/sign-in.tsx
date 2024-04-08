@@ -1,18 +1,19 @@
+import {useNavigate} from "react-router-dom";
+
 function SignIn() {
-    const handleClick = () => {
-        location.href = '/sign-up';
-    };
+    const navigate = useNavigate();
 
     return (
         <div>
-            <h1 style={{display: 'flex', justifyContent: 'center', marginBottom: '1.5 rem'}}>슈프림 온라인 스토어</h1>
+            <h1 style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.5 rem' }}>슈프림 온라인 스토어</h1>
             <form>
                 <input
-                    type="text"
+                    color="transparent"
+                    type="email"
                     name="email"
                     placeholder="이메일"
                     aria-label="email"
-                    autoComplete="username"
+                    autoComplete="email"
                     required
                 />
                 <input
@@ -23,9 +24,9 @@ function SignIn() {
                     autoComplete="current-password"
                     required
                 />
-                    <button type="submit">로그인</button>
+                <button type="submit">로그인</button>
             </form>
-                    <button style={{width: "100%"}} onClick={handleClick}>회원가입</button>
+            <button style={{ width: "100%" }}  onClick={() => navigate('/sign-up')}>회원가입</button>
         </div>
     );
 }

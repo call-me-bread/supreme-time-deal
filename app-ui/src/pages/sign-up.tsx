@@ -1,11 +1,9 @@
 import {useMinHeight} from "../hooks/min-height.ts";
+import {useNavigate} from 'react-router-dom';
 
 export const SignUp = () => {
     const mainRef = useMinHeight();
-
-    const handleClick = () => {
-        location.href = '/';
-    };
+    const navigate = useNavigate();
 
     return (
         <main ref={mainRef} style={{margin: "0 auto", maxWidth: "600px"}}>
@@ -36,7 +34,7 @@ export const SignUp = () => {
                         autoComplete="current-password"
                         required
                     />
-                    <button onClick={handleClick} type="submit">가입하기</button>
+                    <button style={{width: "100%"}} onClick={() => navigate('/', {replace:true})}>회원가입</button>
                 </form>
             </div>
         </main>
