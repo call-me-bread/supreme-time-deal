@@ -1,35 +1,36 @@
 package me.bread.supreme.integration.domain.customer
 
-import me.bread.supreme.integration.domain.order.Address
-import me.bread.supreme.integration.domain.secret.Secret
+import me.bread.supreme.integration.Fixtures
+import me.bread.supreme.integration.domain.authorization.entity.Authentication
+import me.bread.supreme.integration.domain.authorization.vo.Email
+import me.bread.supreme.integration.domain.authorization.vo.Password
+import me.bread.supreme.integration.domain.authorization.vo.PhoneNumber
+import me.bread.supreme.integration.domain.order.vo.Address
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
 class CustomerTest {
 
 	@Test
-	fun `create customer`() {
+	fun `Create customer success`() {
 		// Given
 		val role = Role.USER
 		val address = Address(
 			city = "Vishterich",
 			province = "maiestatis",
-			country = "Saint Vincent and the Grenadines"
+			detail = "Saint Vincent and the Grenadines"
 		)
-		val secret = Secret(
-			email = "octavio.daniel@example.com",
-			password = "interpretaris",
-			phoneNumber = "010-363-4319",
-			phoneAuth = false
+		val authentication = Authentication(
+			email = Email("invalid.email@example.com"),
+			password = Password("interpretaris"),
+			phoneNumber = PhoneNumber("010-363-4319"),
 		)
 
-		// When
-		val customer = Customer(role, address, secret)
 
-		// Then
-		assertEquals(role, customer.role)
-		assertEquals(address, customer.address)
-		assertEquals(secret, customer.secret)
+		// When Then
+		assertEquals(role, Fixtures.aCustomer().role)
+		assertEquals(address, Fixtures.aCustomer().address)
+		assertEquals(authentication, Fixtures.aCustomer().authentication)
 	}
 
 }
