@@ -8,7 +8,4 @@ data class Authentication(
 	val email: Email,
 	val password: Password,
 	val phoneNumber: PhoneNumber,
-) {
-
-
-}
+)

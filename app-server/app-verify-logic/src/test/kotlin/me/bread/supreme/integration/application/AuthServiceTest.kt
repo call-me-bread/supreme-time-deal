@@ -9,11 +9,12 @@ import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
 class AuthServiceTest {
+
 	private val authRepository: AuthRepository = mockk()
 	private val authService = AuthService(authRepository)
 
 	@Test
-	fun `Create customer with invalid token`() {
+	fun `fail when create customer with invalid token`() {
 		// Given
 		val token = "invalid-token"
 
@@ -24,7 +25,7 @@ class AuthServiceTest {
 	}
 
 	@Test
-	fun `Create customer with valid token`() {
+	fun `success when create customer with valid token`() {
 		// Given
 		val validToken = "valid-token"
 

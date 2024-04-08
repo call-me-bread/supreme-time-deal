@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test
 class CustomerTest {
 
 	@Test
-	fun `Create customer success`() {
+	fun `success when create customer`() {
 		// Given
 		val role = Role.USER
 		val address = Address(

@@ -2,19 +2,26 @@ package me.bread.supreme.integration.domain.auth
 
 import me.bread.supreme.integration.domain.auth.exception.InvalidFormatEmailException
 import me.bread.supreme.integration.domain.auth.vo.Email
+import org.junit.jupiter.api.Assertions.assertNotNull
+import org.junit.jupiter.api.Assertions.assertThrows
 import org.junit.jupiter.api.Test
-import org.junit.jupiter.api.assertThrows
 
 class EmailTest {
+
 	@Test
-	fun `Create email with invalid format`() {
+	fun `success when true for valid email`() {
 		// Given
-		val invalidFormatEmail = "invalid.email.example.com"
+		val validEmail = Email("test@example.com")
 
-		// When Then
-		assertThrows<InvalidFormatEmailException> {
-			Email(invalidFormatEmail)
+		// Then
+		assertNotNull(validEmail)
+	}
+
+	@Test
+	fun `exception for invalid email`() {
+		// When, Then
+		assertThrows(InvalidFormatEmailException::class.java) {
+			Email("invalid-email")
 		}
-
 	}
 }
