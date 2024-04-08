@@ -1,7 +1,7 @@
-package me.bread.supreme.integration.domain.authorization
+package me.bread.supreme.integration.domain.auth
 
-import me.bread.supreme.integration.domain.authorization.exception.InvalidFormatEmailException
-import me.bread.supreme.integration.domain.authorization.vo.Email
+import me.bread.supreme.integration.domain.auth.exception.InvalidFormatEmailException
+import me.bread.supreme.integration.domain.auth.vo.Email
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 

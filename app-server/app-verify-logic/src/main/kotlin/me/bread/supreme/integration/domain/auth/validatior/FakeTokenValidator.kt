@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain.authorization.validatior
+package me.bread.supreme.integration.domain.auth.validatior
 
 object FakeTokenValidator: TokenValidator {
 	private const val VALID_TOKEN = "valid-token"

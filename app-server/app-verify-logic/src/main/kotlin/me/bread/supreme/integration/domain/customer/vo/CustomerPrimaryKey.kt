@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain.customer
+package me.bread.supreme.integration.domain.customer.vo
 
 @JvmInline
 value class CustomerPrimaryKey(

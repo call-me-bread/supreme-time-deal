@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain.customer
+package me.bread.supreme.integration.domain.customer.enums
 
 enum class Role(private val authority: String) {
 	USER("USER"),

@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain.authorization.vo
+package me.bread.supreme.integration.domain.auth.vo
 
 @JvmInline
 value class Password(

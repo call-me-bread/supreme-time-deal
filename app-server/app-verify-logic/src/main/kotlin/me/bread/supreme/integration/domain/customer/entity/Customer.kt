@@ -1,7 +1,8 @@
-package me.bread.supreme.integration.domain.customer
+package me.bread.supreme.integration.domain.customer.entity
 
+import me.bread.supreme.integration.domain.auth.entity.Authentication
+import me.bread.supreme.integration.domain.customer.enums.Role
 import me.bread.supreme.integration.domain.order.vo.Address
-import me.bread.supreme.integration.domain.authorization.entity.Authentication
 
 class Customer(
 	val role: Role,

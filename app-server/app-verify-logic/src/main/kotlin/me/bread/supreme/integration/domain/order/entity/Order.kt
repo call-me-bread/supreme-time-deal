@@ -1,6 +1,6 @@
 package me.bread.supreme.integration.domain.order.entity
 
-import me.bread.supreme.integration.domain.customer.Customer
+import me.bread.supreme.integration.domain.customer.entity.Customer
 import me.bread.supreme.integration.domain.order.enums.OrderStatus
 import me.bread.supreme.integration.domain.order.vo.Address
 import me.bread.supreme.integration.domain.product.entity.Product
