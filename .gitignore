@@ -82,3 +82,16 @@ out/
 .venv
 /app-ui/package-lock.json
 /app-server/core/product/venv/
+/app-server/.gradle/buildOutputCleanup/buildOutputCleanup.lock
+/app-server/.gradle/buildOutputCleanup/cache.properties
+/app-server/.gradle/8.5/checksums/checksums.lock
+/app-server/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock
+/app-server/.gradle/8.5/executionHistory/executionHistory.lock
+/app-server/.gradle/8.5/fileHashes/fileHashes.lock
+/app-server/.gradle/8.5/dependencies-accessors/gc.properties
+/app-server/.gradle/8.5/gc.properties
+/app-server/.gradle/vcs-1/gc.properties
+/app-server/.gradle/8.5/fileChanges/last-build.bin
+/app-server/.gradle/8.5/checksums/md5-checksums.bin
+/app-server/.gradle/buildOutputCleanup/outputFiles.bin
+/app-server/.gradle/8.5/checksums/sha1-checksums.bin
