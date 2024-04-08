@@ -1,36 +1,14 @@
-const App = () => {
-    return (
-        <>
-            <main className="container">
-                <h1>LOGIN</h1>
-                <form>
-                    <fieldset>
-                        <label>
-                            First name
-                            <input
-                                name="first_name"
-                                placeholder="First name"
-                                autoComplete="given-name"
-                            />
-                        </label>
-                        <label>
-                            Email
-                            <input
-                                type="email"
-                                name="email"
-                                placeholder="Email"
-                                autoComplete="email"
-                            />
-                        </label>
-                    </fieldset>
+import Login from "./pages/login.tsx";
+import {useMinHeight} from "./hooks/min-height.ts";
 
-                    <input
-                        type="submit"
-                        value="Subscribe"
-                    />
-                </form>
-            </main>
-        </>
+const App = () => {
+    let mainRef = useMinHeight();
+
+    return (
+        <main ref={mainRef} style={{margin: "0 auto", maxWidth: "600px"}}>
+            <Login/>
+        </main>
     );
 };
+
 export default App;
