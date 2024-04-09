@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F10%2Fsupreme-san-francisco-opening-party-inside-look-2.jpg?cbr=1&q=90">
+<img width="300" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F10%2Fsupreme-san-francisco-opening-party-inside-look-2.jpg?cbr=1&q=90">
 
 <h1> ✧ Supreme time deal ✧ </h1>
 
