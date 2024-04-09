@@ -1,7 +1,7 @@
 rootProject.name = "supreme-time-deal"
 
 include(
-	"app-authentication",
+	"app-accounts",
 	"app-order",
 	"app-customer",
 	"app-product",

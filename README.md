@@ -4,13 +4,13 @@
 ## ✧ Supreme time deal ✧
 
 </div>
-<p style="font-size: small">
+<p style="font-size: large">
 슈프림의 한정판 상품을 타임딜 이벤트를 통해 구매할 수 있는 E-commerce 풀스택 웹 어플리케이션 입니다.
 </p>
 
-## Domain model
-<img width="1439px" src="docs/images/supreme-time-deal-domain-design.png">
+## Simplify Domain model
+<img width="1550px" src="docs/images/supreme-time-deal-domain-design.png">
 
-## Auth Design
+## Accounts Domain Design
 <img width="1000px" src="docs/images/_Accounts-flow.drawio.png">
 
