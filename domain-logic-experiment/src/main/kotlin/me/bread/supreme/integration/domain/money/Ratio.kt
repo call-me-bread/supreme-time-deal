@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain.money.vo
+package me.bread.supreme.integration.domain.money
 
 class Ratio internal constructor(private val rate: Double) {
 

@@ -1,3 +1,3 @@
-package me.bread.supreme.integration.domain.auth.exception
+package me.bread.supreme.integration.domain.accounts.exception
 
 class NoAuthorizationException: RuntimeException("No authorization exception occurred")

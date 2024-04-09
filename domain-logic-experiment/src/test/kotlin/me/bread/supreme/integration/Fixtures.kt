@@ -1,12 +1,12 @@
 package me.bread.supreme.integration
 
-import me.bread.supreme.integration.domain.auth.entity.Authentication
-import me.bread.supreme.integration.domain.auth.vo.Email
-import me.bread.supreme.integration.domain.auth.vo.Password
-import me.bread.supreme.integration.domain.auth.vo.PhoneNumber
-import me.bread.supreme.integration.domain.customer.entity.Customer
-import me.bread.supreme.integration.domain.customer.enums.Role
-import me.bread.supreme.integration.domain.money.vo.Money
+import me.bread.supreme.integration.domain.accounts.entity.Authentication
+import me.bread.supreme.integration.domain.accounts.vo.Email
+import me.bread.supreme.integration.domain.accounts.vo.Password
+import me.bread.supreme.integration.domain.accounts.vo.PhoneNumber
+import me.bread.supreme.integration.domain.accounts.entity.Accounts
+import me.bread.supreme.integration.domain.accounts.enums.Role
+import me.bread.supreme.integration.domain.money.Money
 import me.bread.supreme.integration.domain.order.vo.Address
 import me.bread.supreme.integration.domain.product.entity.Product
 import me.bread.supreme.integration.domain.product.entity.TimeLimit
@@ -16,8 +16,8 @@ import java.math.BigDecimal
 import java.time.LocalDateTime
 
 object Fixtures {
-	fun aCustomer(): Customer {
-		return Customer(
+	fun aCustomer(): Accounts {
+		return Accounts(
 			role = Role.USER,
 			address = Address(
 				city = "Vishterich",

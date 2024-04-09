@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain.auth.validatior
+package me.bread.supreme.integration.domain.accounts.validatior
 
 interface TokenValidator {
 	enum class CheckResult {

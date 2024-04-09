@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain.money.vo
+package me.bread.supreme.integration.domain.money
 
 import java.math.BigDecimal
 

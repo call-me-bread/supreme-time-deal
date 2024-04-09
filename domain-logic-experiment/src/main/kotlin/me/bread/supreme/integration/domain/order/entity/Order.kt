@@ -1,13 +1,13 @@
 package me.bread.supreme.integration.domain.order.entity
 
-import me.bread.supreme.integration.domain.customer.entity.Customer
+import me.bread.supreme.integration.domain.accounts.entity.Accounts
 import me.bread.supreme.integration.domain.order.enums.OrderStatus
 import me.bread.supreme.integration.domain.order.vo.Address
 import me.bread.supreme.integration.domain.product.entity.Product
 
 class Order(
 	val orderItem: MutableList<OrderItem>,
-	val customer: Customer,
+	val accounts: Accounts,
 	var status: OrderStatus,
 	val shipments: MutableList<Shipment>,
 ) {
@@ -17,7 +17,7 @@ class Order(
 	 * 주문에 필요한 조건들 검증 -> 주문 대기 상태 변경
 	 */
 	fun prepare(
-		customer: Customer,
+		accounts: Accounts,
 		product: Product,
 		address: Address,
 	) {

@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain.auth.vo
+package me.bread.supreme.integration.domain.accounts.vo
 
 import java.util.regex.Pattern
 

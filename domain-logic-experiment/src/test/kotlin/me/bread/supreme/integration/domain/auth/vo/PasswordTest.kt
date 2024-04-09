@@ -1,5 +1,6 @@
 package me.bread.supreme.integration.domain.auth.vo
 
+import me.bread.supreme.integration.domain.accounts.vo.Password
 import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test

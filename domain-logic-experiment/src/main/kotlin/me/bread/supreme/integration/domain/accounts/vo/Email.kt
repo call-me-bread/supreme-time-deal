@@ -1,6 +1,6 @@
-package me.bread.supreme.integration.domain.auth.vo
+package me.bread.supreme.integration.domain.accounts.vo
 
-import me.bread.supreme.integration.domain.auth.exception.InvalidFormatEmailException
+import me.bread.supreme.integration.domain.accounts.exception.InvalidFormatEmailException
 
 
 @JvmInline

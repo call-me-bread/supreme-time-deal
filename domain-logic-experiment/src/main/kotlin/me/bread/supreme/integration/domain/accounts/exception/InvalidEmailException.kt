@@ -1,4 +1,4 @@
-package me.bread.supreme.integration.domain.customer.exception
+package me.bread.supreme.integration.domain.accounts.exception
 
 class InvalidEmailException: RuntimeException("invalid email has been occurred") {
 }
