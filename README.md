@@ -1,11 +1,9 @@
-<div align="center">
-<img width="300" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F10%2Fsupreme-san-francisco-opening-party-inside-look-2.jpg?cbr=1&q=90">
+<center>
+<img width="500" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F10%2Fsupreme-san-francisco-opening-party-inside-look-2.jpg?cbr=1&q=90">
+</center>
 
-<h1> ✧ Supreme time deal ✧ </h1>
+# ✧ Supreme time deal ✧
 
-</div>
-
-## 소개
 #### 슈프림의 한정판 상품을 타임딜 이벤트를 통해 구매할 수 있는 E-commerce 백엔드 서버 입니다.
 #### 개발은 3월 27일 부터 하였고, 현재 진행중 입니다.
 
