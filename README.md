@@ -12,5 +12,5 @@
 <img width="1439px" src="docs/images/supreme-time-deal-domain-design.png">
 
 ## **Auth Design**
-<img width="1439px" src="docs/images/auth-design.png">
+<img width="1439px" src="docs/images/_Accounts-flow.drawio.png">
 
