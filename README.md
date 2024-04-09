@@ -8,8 +8,6 @@
 슈프림의 한정판 상품을 타임딜 이벤트를 통해 구매할 수 있는 E-commerce 백엔드 서버 입니다.
 </p>
 
-## About Design
-
 ## Domain Design Overview 
 <img width="1550px" src="docs/images/supreme-time-deal-domain-design.png">
 
