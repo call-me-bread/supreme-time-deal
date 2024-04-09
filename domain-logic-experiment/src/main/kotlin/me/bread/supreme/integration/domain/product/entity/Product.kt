@@ -13,7 +13,9 @@ class Product(
 	var timeLimit: TimeLimit,
 	var stock: Stock,
 ) {
-	fun canBuy() {}
+	fun canBuy() {
+
+	}
 
 	fun choiceOption() {}
 }
