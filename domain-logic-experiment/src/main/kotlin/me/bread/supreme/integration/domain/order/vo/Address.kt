@@ -11,4 +11,11 @@ data class Address(
 	fun updateTo(address: Address): Address {
 		return Address(address.city, address.province, address.detail)
 	}
+
+	/**
+	 * 임시 개발
+	 */
+	fun isIsland(): Boolean {
+		return this.city.contains("제주")
+	}
 }

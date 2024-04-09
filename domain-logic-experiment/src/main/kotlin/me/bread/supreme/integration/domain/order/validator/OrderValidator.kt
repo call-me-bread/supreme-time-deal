@@ -29,9 +29,4 @@ class OrderValidator {
 	fun fieldNotFullFilled() {
 	}
 
-	/**
-	 * 필수 약관 거부 검증
-	 */
-	fun requiredTermsNotFullFilled() {
-	}
 }
